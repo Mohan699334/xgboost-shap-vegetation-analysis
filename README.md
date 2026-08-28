@@ -97,6 +97,13 @@ Each plot displays:
 - Red dot-dash lines: Detected zero-crossing turning points (where SHAP crosses from negative to positive or vice versa)
 
 ---
+### Data and Reproducibility
+
+The processed pixel-level dataset generated and compiled for this study is not publicly distributed. Therefore, this repository is intended to provide a transparent and traceable implementation of the analytical workflow rather than a complete dataset that can directly reproduce all numerical results reported in the manuscript. Without access to the original study dataset, users can inspect and run the analytical workflow, but the empirical results reported in the manuscript cannot be fully reproduced from this repository alone.
+
+For users who do not have access to the study dataset, synthetic data may be used to test whether the code runs correctly and to demonstrate the analytical workflow. The synthetic data are provided solely for software testing and methodological demonstration. They do not represent the actual observations used in this study and cannot be used to reproduce the empirical results reported in the manuscript.
+
+The original data sources and their access information are described in the Data Availability statement of the manuscript.
 
 ## Contact
 
